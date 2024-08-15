@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">FamilyNest</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="send_verification_code">Send Verification Code</string>
+    <string name="verify_code">Verify Code</string>
+    <string name="verification_code">Verification Code</string>
+    <string name="budget">Budget</string>
+    <string name="tasks">Tasks</string>
+    <string name="shopping">Shopping</string>
+    <string name="profile">Profile</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="budget_management">Budget Management</string>
+    <string name="category">Category</string>
+    <string name="amount">Amount</string>
+    <string name="add_budget">Add Budget</string>
+    <string name="email">Email</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="name">Name</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign Up</string>
+    <string name="user_profile_image">User Profile Image</string>
+    <string name="app_logo">App Logo</string>
+    <string name="filter">Filter</string>
+    <string name="filter_by">Filter by:</string>
+    <string name="date">Date</string>
+    <string name="type">Type</string>
+    <string name="item_name">Item Name</string>
+    <string name="select_date">Select Date</string>
+    <string name="save">Save</string>
+    <string name="enter_amount">Enter amount</string>
+    <string name="enter_item_name">Enter item name</string>
+    <string name="add_item">Add Item</string>
+    <string name="edit_item">Edit Item</string>
+    <string name="delete_item">Delete item</string>
+    <string name="add_task">Add Task</string>
+    <string name="task_title">Task Title</string>
+    <string name="reward">Reward</string>
+    <string name="mark_done">Mark Done</string>
+    <string name="edit_task">Edit Task</string>
+    <string name="delete_task">Delete Task</string>
+    <string name="title">Title</string>
+    <string name="done">Done</string>
+    <string name="filter_by_date">Filter by Date</string>
+    <string name="priority">Priority</string>
+    <string name="add_family_member">Add family member</string>
+    <string name="family_members">Family Memebers</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="family_member_name">Family member name</string>
+    <string name="cancel">Cancel</string>
+    <string name="profile_image">Profile Image</string>
+    <string name="edit_family_member">Edit Family Member</string>
+    <string name="delete_family_member">Delete Family Memeber</string>
+    <string name="add_list">Add List</string>
+    <string name="cost">Cost</string>
+    <string name="list_name">List Name</string>
+    <string name="clear_done">Clear Done</string>
+    <string name="clear">Un-Done</string>
+    <string name="user_name">User Name</string>
+    <string name="add_trx">Add Trx</string>
+    <string name="about_us">About Us</string>
+    <string name="back_to_main">Back to Main</string>
+    <string name="contact_us">Contact Us</string>
+    <string-array name="priority_array">
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+    </string-array>
+</resources>

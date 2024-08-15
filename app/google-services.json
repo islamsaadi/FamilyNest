@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "667135101145",
+    "project_id": "familynest-4e792",
+    "storage_bucket": "familynest-4e792.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:667135101145:android:03bfde74372ba9c71d16c8",
+        "android_client_info": {
+          "package_name": "com.islam.familynest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASkKw8N6MYjyIRbU_3a-QaI4HaDGTlFUk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primaryColor">#FF000000</color>
+    <color name="def_bg_color">#17153B</color>
+    <color name="item_color_one">#FFFFFF</color>
+    <color name="item_color_two">#F0F0F0</color>
+    <color name="income_color">#4CAF50</color>
+    <color name="expense_color">#F44336</color>
+    <color name="danger">#D11406</color>
+    <color name="priority_high">#FF0000</color> <!-- Red -->
+    <color name="priority_medium">#FFA500</color> <!-- Orange -->
+    <color name="priority_low">#008000</color> <!-- Green -->
+</resources>
