@@ -13,14 +13,21 @@
 
 ## Screenshots
 
-![Login](screenshots/login.png)
-![Signup](screenshots/signup.png)
-![Verify](screenshots/verify.png)
-![Budget Tracker](screenshots/budget_tracker.png)
-![Task List](screenshots/task_list.png)
-![Shopping List](screenshots/shopping_list.png)
-![Profile](screenshots/profile.png)
-![About](screenshots/about.png)
+<img src="screenshots/login.png" alt="Login Screenshot" width="300"/>
+
+<img src="screenshots/signup.png" alt="Signup Screenshot" width="300"/>
+
+<img src="screenshots/verify.png" alt="Verify Screenshot" width="300"/>
+
+<img src="screenshots/budget_tracker.png" alt="Budget Tracker Screenshot" width="300"/>
+
+<img src="screenshots/task_list.png" alt="Task List Screenshot" width="300"/>
+
+<img src="screenshots/shopping_list.png" alt="Shopping List Screenshot" width="300"/>
+
+<img src="screenshots/profile.png" alt="Profile Screenshot" width="300"/>
+
+<img src="screenshots/about.png" alt="About Screenshot" width="300"/>
 
 
 ## Usage
