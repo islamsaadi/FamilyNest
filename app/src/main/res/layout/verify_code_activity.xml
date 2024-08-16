@@ -15,6 +15,15 @@
         android:contentDescription="@string/app_name"
         android:layout_marginBottom="24dp" />
 
+    <TextView
+        android:id="@+id/phoneNumberTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sending code to: +1234567890"
+        android:textSize="18sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp" />
+
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -26,6 +35,17 @@
             android:layout_height="wrap_content"
             android:inputType="number" />
     </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/resendCodeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/resend_code"
+        android:enabled="false"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/resend_green_disabled"
+        android:backgroundTint="@color/white"/>
 
     <Button
         android:id="@+id/verifyButton"
@@ -41,5 +61,15 @@
         android:visibility="gone"
         android:layout_gravity="center"
         android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/backToLastActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center" />
 
 </LinearLayout>

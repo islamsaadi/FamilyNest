@@ -20,10 +20,8 @@ import com.islam.familynest.helpers.FirebaseAuthHelper;
 public class SignupActivity extends AppCompatActivity {
 
     private FirebaseAuthHelper authHelper;
-
     private EditText phoneNumberInput, nameInput, emailInput;
-    private Button signupButton;
-
+    private Button signupButton, backToLoginButton;
     private ProgressBar progressBar;
 
 
@@ -38,7 +36,7 @@ public class SignupActivity extends AppCompatActivity {
         nameInput = findViewById(R.id.nameInput);
         emailInput = findViewById(R.id.emailInput);
         signupButton = findViewById(R.id.signupButton);
-
+        backToLoginButton = findViewById(R.id.backToLoginButton);
         progressBar = findViewById(R.id.progressBar);
 
 
@@ -72,7 +70,7 @@ public class SignupActivity extends AppCompatActivity {
 
 
             // Proceed with phone number verification
-            authHelper.sendVerificationCode(phoneNumber, name, email, new PhoneAuthProvider.OnVerificationStateChangedCallbacks() {
+            authHelper.sendVerificationCode(phoneNumber, new PhoneAuthProvider.OnVerificationStateChangedCallbacks() {
                 @Override
                 public void onVerificationCompleted(@NonNull PhoneAuthCredential credential) {
                     progressBar.setVisibility(View.GONE);
@@ -93,11 +91,18 @@ public class SignupActivity extends AppCompatActivity {
                     signupButton.setEnabled(true);
                     Intent intent = new Intent(SignupActivity.this, VerifyCodeActivity.class);
                     intent.putExtra("verificationId", verificationId);
+                    intent.putExtra("phoneNumber", phoneNumber);
                     intent.putExtra("name", name);
                     intent.putExtra("email", email);
                     startActivity(intent);
                 }
             });
+        });
+
+        backToLoginButton.setOnClickListener(v -> {
+            Intent loginIntent = new Intent(SignupActivity.this, LoginActivity.class);
+            startActivity(loginIntent);
+            finish();
         });
     }
 }

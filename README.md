@@ -15,11 +15,13 @@
 
 ![Login](screenshots/login.png)
 ![Signup](screenshots/signup.png)
+![Verify](screenshots/verify.png)
 ![Budget Tracker](screenshots/budget_tracker.png)
 ![Task List](screenshots/task_list.png)
 ![Shopping List](screenshots/shopping_list.png)
 ![Profile](screenshots/profile.png)
 ![About](screenshots/about.png)
+
 
 ## Usage
 

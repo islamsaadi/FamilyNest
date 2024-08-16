@@ -69,7 +69,7 @@ public class LoginActivity extends AppCompatActivity {
                 loginButton.setEnabled(false);
 
                 // Use FirebaseAuthHelper to send verification code
-                authHelper.sendVerificationCode(phoneNumber, null, null, new PhoneAuthProvider.OnVerificationStateChangedCallbacks() {
+                authHelper.sendVerificationCode(phoneNumber, new PhoneAuthProvider.OnVerificationStateChangedCallbacks() {
                     @Override
                     public void onVerificationCompleted(@NonNull PhoneAuthCredential credential) {
                         progressBar.setVisibility(View.GONE);
@@ -90,6 +90,7 @@ public class LoginActivity extends AppCompatActivity {
                         loginButton.setEnabled(true);
                         Intent intent = new Intent(LoginActivity.this, VerifyCodeActivity.class);
                         intent.putExtra("verificationId", verificationId);
+                        intent.putExtra("phoneNumber", phoneNumber);
                         startActivity(intent);
                     }
                 });

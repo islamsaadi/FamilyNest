@@ -155,12 +155,7 @@ public class BudgetFragment extends Fragment implements BudgetAdapter.BudgetItem
                     }
                 }
 
-                Collections.sort(budgetItemList, new Comparator<BudgetItem>() {
-                    @Override
-                    public int compare(BudgetItem item1, BudgetItem item2) {
-                        return item2.getDate().compareTo(item1.getDate());
-                    }
-                });
+                Collections.sort(budgetItemList, (item1, item2) -> item2.getDate().compareTo(item1.getDate()));
 
                 totalTextView.setText(String.format(Locale.getDefault(), "Total: $%.2f", total));
                 budgetAdapter.notifyDataSetChanged();

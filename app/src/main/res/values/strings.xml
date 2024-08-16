@@ -60,6 +60,9 @@
     <string name="about_us">About Us</string>
     <string name="back_to_main">Back to Main</string>
     <string name="contact_us">Contact Us</string>
+    <string name="back_to_login">Back to login</string>
+    <string name="back">Back</string>
+    <string name="resend_code">Resend Code</string>
     <string-array name="priority_array">
         <item>High</item>
         <item>Medium</item>

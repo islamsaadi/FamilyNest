@@ -28,7 +28,7 @@ public class FirebaseAuthHelper {
         this.activity = activity;
     }
 
-    public void sendVerificationCode(String phoneNumber, String name, String email, PhoneAuthProvider.OnVerificationStateChangedCallbacks callbacks) {
+    public void sendVerificationCode(String phoneNumber, PhoneAuthProvider.OnVerificationStateChangedCallbacks callbacks) {
         PhoneAuthOptions options = PhoneAuthOptions.newBuilder(mAuth)
                 .setPhoneNumber(phoneNumber)
                 .setTimeout(60L, TimeUnit.SECONDS)

@@ -66,4 +66,15 @@
         android:visibility="gone"
         android:layout_gravity="center"
         android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/backToLoginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:text="@string/back_to_login"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center" />
+
 </LinearLayout>
